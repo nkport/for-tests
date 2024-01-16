@@ -1,8 +1,8 @@
 <?php
 // データベースに接続
-$dsn = 'mysql:dbname=php_db_app;host=localhost;charset=utf8mb4';
-$user = 'root';
-$password = '';
+$dsn = 'mysql:dbname=transmitnk_db;host=localhost;charset=utf8mb4';
+$user = 'tmnk1';
+$password = 'Q9tslczYuVqI';
 
 try {
 
