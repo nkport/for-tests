@@ -1,6 +1,6 @@
 <?php
 $dsn = 'mysql:dbname=transmitnk_db;host=localhost;charset=utf8mb4';
-$user = 'tmnk1';
+$user = 'transmitnk_tmnk1';
 $password = 'Q9tslczYuVqI';
 
 // submitパラメータの値が存在するとき（「登録」ボタンを押したとき）の処理

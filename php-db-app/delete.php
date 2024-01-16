@@ -1,6 +1,6 @@
 <?php
 $dsn = 'mysql:dbname=transmitnk_db;host=localhost;charset=utf8mb4';
-$user = 'tmnk1';
+$user = 'transmitnk_tmnk1';
 $password = 'Q9tslczYuVqI';
 
 try {
