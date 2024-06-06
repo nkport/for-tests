@@ -1,0 +1,87 @@
+ /* select.php */
+ table {
+     width: 100%;
+     max-width: 480px;
+     margin: 0 auto;
+     table-layout: fixed;
+     border-collapse: collapse;
+ }
+
+ table tr {
+     border-bottom: solid 1px #d9d9d9;
+ }
+
+ table tr:first-child {
+     border-bottom: solid 3px #d9d9d9;
+ }
+
+ table th,
+ table td {
+     padding: 1rem;
+     text-align: center;
+ }
+
+ /* insert.php */
+ h1,
+ p {
+     text-align: center;
+ }
+
+ form {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ form div {
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 1.5rem;
+ }
+
+ form label {
+     margin-top: 0.75rem;
+ }
+
+ label span {
+     color: red;
+ }
+
+ /* where-like.php */
+ .search-form {
+     flex-direction: row;
+     justify-content: center;
+     margin: 1.5rem 0 0.75rem;
+ }
+
+ .search-form input:first-child {
+     margin-right: 0.5rem;
+ }
+
+ /* users.php */
+ .all-column {
+     max-width: 1000px;
+     table-layout: auto;
+ }
+
+ /* order-by.php */
+ .sort {
+     display: flex;
+     justify-content: center;
+     margin-top: 1rem;
+ }
+
+ .sort-btn {
+     padding: 0.5rem 0.5rem 0.5rem 1rem;
+     margin: 0.5rem;
+     color: #fff;
+     text-decoration: none;
+     background-color: #6c757d;
+     border-radius: 4px;
+     box-shadow: 1px 2px 4px rgb(0 0 0 / 15%);
+     transition: 0.3s;
+ }
+
+ .sort-btn:hover {
+     opacity: 0.8;
+ }
